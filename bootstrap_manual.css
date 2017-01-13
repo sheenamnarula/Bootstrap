@@ -1,0 +1,82 @@
+
+body
+{
+	
+	background-color: black;
+
+}
+
+ #aboutus {
+ 	float: right;
+ }
+  #searchbar
+  {
+    width: 220px;
+
+  }
+
+
+
+ @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #aboutus {
+        
+        
+        
+        padding-top: 10px;
+        float: left;
+        margin-right: 210px;
+        
+    }
+     
+   
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #inputbar
+    {
+    	display: inline;
+    	margin: 0;
+
+
+
+    }
+    
+  @media(min-width: 768px) {
+    /* For mobile phones: */
+    .danceimage
+    {
+    	
+
+       width: 100px;
+       height: 100px;
+
+    }
+
+
+
+     
+   
+}
+@media only screen and (width: 732px) {
+    /* For mobile phones: */
+    #aboutdiv {
+        
+        float: left;
+        width: 100%;
+        
+        
+        
+    }
+     
+   
+}
+
+
+     
+   
+
+
+
