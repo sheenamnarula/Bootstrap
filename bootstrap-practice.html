@@ -13,8 +13,8 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap_manual.css">
 
 </head>
-<body  style="background-color: black ;">
-	<div class=" Wrapper container" style="width: 100% ;">
+<body  >
+	<div class=" Wrapper container">
 
 		<div class="navbar navbar-default navbar navbar-fixed-top"> <!--nav bar-->
 
@@ -41,10 +41,10 @@
 			<div class="collapse navbar-collapse" id="demo">
 				<ul class="nav navbar-nav">
 					<li class="active">
-						<a href="#"> <span class="glyphicon glyphicon-home"></span><span style="font-family: cursive;"> Home</span></a>
+						<a href="#"> <span class="glyphicon glyphicon-home"></span><span id="navbartext"> Home</span></a>
 					</li>
 					<li >
-						<a href="#" class="dropdown" data-toggle="dropdown">Courses<span style=" font-family: cursive;"class="caret" ></span></a>
+						<a href="#" class="dropdown" data-toggle="dropdown">Courses<span  class="caret" ></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="#">Salsa</a></li>
 							<li><a href="#">Bollywood</a></li>
@@ -64,16 +64,16 @@
 				<form class="navbar-form pull-left">
 					<div class="form-group" >
 
-						<input  text class="form-control" id="inputbar" placeholder="Search" style="width: 200px">
+						<input  text class="form-control" id="inputbar" placeholder="Search">
 
-						<button type="submit" class="btn btn-default" id="button"><span class="glyphicon glyphicon-search" style="display: inline;"></span></button>
+						<button type="submit" class="btn btn-default" id="button"><span class="glyphicon glyphicon-search" id="searchicon"></span></button>
 
 					</div>
 				</form>
 				<div id="aboutdiv">
 					<ul class="nav navbar-nav" id="aboutus">
 						<li >
-							<a href="#" style="display: inline; "> <span class="glyphicon glyphicon-star"> About us</span></a>
+							<a href="aboutus.html" id="aboutusdisplay"> <span class="glyphicon glyphicon-star"> About us</span></a>
 						</li>
 					</ul>
 				</div>
@@ -96,34 +96,34 @@
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox" align="carousel-control">
 			<div class="item active">
-				<img src="img/contemporaryblue.jpg" alt="Chania" class="img-responsive" style="margin: auto;width:650px;height: 433px;">
+				<img src="img/contemporaryblue.jpg" alt="Chania" class="img-responsive" id="yogablue">
 				<div class="carousel-caption">
-					<h3 style="color: orange;font-weight: bold">CONTEMPORARY</h3>
-					<p style="color: white; font-weight: bold;font-size: 25px;">FEEL THE EMOTIONS</p>
+					<h3 id="headingstyle">CONTEMPORARY</h3>
+					<p id="slidingcaption" >FEEL THE EMOTIONS</p>
 				</div>
 			</div>
 
 			<div class="item">
-				<img src="img/classicalcapture.png" alt="backround" class="img-responsive" style=" margin: auto;width:650px;height: 433px">
+				<img src="img/classicalcapture.png" alt="backround" class="img-responsive" id="classicalcapture">
 				<div class="carousel-caption">
-					<h3 style="color: orange ;font-weight: bold">CLASSICAL</h3>
-					<p style="color: white; font-weight: bold;font-size: 25px;">Kathak :: HEART OF INDIA</p>
+					<h3 id="headingstyle">CLASSICAL</h3>
+					<p id="slidingcaption">Kathak :: HEART OF INDIA</p>
 				</div>
 			</div>
 
 			<div class="item">
-				<img src="img/yogablue.jpg" alt="Flower" class="img-responsive" style=" margin: auto;width:650px;height: 433px">
+				<img src="img/yogablue.jpg" alt="Flower" class="img-responsive" id="yogablue">
 				<div class="carousel-caption">
-					<h3 style="color: orange; font-weight: bold">YOGA</h3>
-					<p style=" color: white;font-weight: bold;font-size: 25px;">TREASURE OF INDIA</p>
+					<h3 id="headingstyle">YOGA</h3>
+					<p id="slidingcaption">TREASURE OF INDIA</p>
 				</div>
 			</div>
 
 			<div class="item">
-				<img src="img/shadowblue.jpg" alt="Flower" class="img-responsive" style="margin: auto;width:650px;height: 433px">
+				<img src="img/shadowblue.jpg" alt="Flower" class="img-responsive" id="shadowblue">
 				<div class="carousel-caption">
-					<h3 style="color: orange ; font-family: 'Abril Fatface', cursive; font-weight: bold">SHADOW :</h3>
-					<p style="color: white; font-weight: bold;font-size: 25px;">FEEL YOURSELF</p>
+					<h3 id="headingstyle">SHADOW</h3>
+					<p id="slidingcaption">FEEL YOURSELF</p>
 				</div>
 			</div>
 		</div>
@@ -145,17 +145,17 @@
 <br>
 <div class="container">
 	<div class="row">
-		<div class="col-sm-4  danceimage">
-		<img src="img/backroundbootstrap2.jpg" class= "img-responsive" alt="Flower" style=" margin: auto; width: 650px;height: 350px">
-			<p style="color: orange ; font-family: 'Lemonada', cursive;font-size: 18px">
+		<div class="col-sm-4">
+		<img src="img/backroundbootstrap2.jpg" class= "img-responsive" id="image1"  alt="Flower">
+			<p id="textquote">
 				DreamLand Dance Academy is not only a platform,It takes you into that world where you will realize <span>"DANCING with the feet is one thing but Dancing with the HEART is another..."</span>
 				</p>
                </div>
 
-				<div class="col-sm-4" id="textresponsive" style="color: orange ; font-family: 'Lemonada', cursive;font-size: 18px">
-                     <img src="img/backroundbootstrap3.jpg" class= "img-responsive" id="danceimage" alt="Flower" style=" margin: auto;width: 650px;height: 350px">
+				<div class="col-sm-4" >
+                     <img src="img/backroundbootstrap3.jpg" class= "img-responsive" id="danceimage" alt="Flower">
 					
-					<p style="color: orange ; font-family: 'Lemonada', cursive;font-size: 18px">
+					<p id="textquote">
 
 
 						Dream your Dance World and we are here to make it true..
@@ -164,9 +164,9 @@
 					</p>
 				</div>
 				<div class="col-sm-4">
-                 <img src="img/backroundbootstrap.jpg" class= "img-responsive" alt="Flower" style=" margin: auto;width: 650px;height: 350px ">
+                 <img src="img/backroundbootstrap.jpg" class= "img-responsive" id="backroundbootstrap" alt="Flower">
 				
-					<p  style="color: orange ; font-family: 'Lemonada', cursive;font-size: 18px">
+					<p  id="textquote">
 
 						Practice like you have never won..Perform like you have never lost
 					</p>
@@ -180,17 +180,17 @@
 	</div>
 	<hr>
 	<div class="container">
-		<footer style="color: white">
+		<footer id="footercolour">
 			<div class="row">
 				<div class="col-sm-4">
-					<p style="padding-left: 30px;"><span class="glyphicon glyphicon-flag"></span> Whitefield Opposite ITPL</p>
+					<p id="footertext"><span class="glyphicon glyphicon-flag"></span> Whitefield Opposite ITPL</p>
 
 				</div>
 				<div class="col-sm-4">
-					<p  style="padding-left: 30px"><span class="glyphicon glyphicon-envelope"></span> www.dreamlandacademy.com</p>
+					<p id="footertext"><span class="glyphicon glyphicon-envelope"></span> www.dreamlandacademy.com</p>
 				</div>
 				<div class="col-sm-4">
-					<p style="padding-left: 30px"><span class="glyphicon glyphicon-phone"></span> +919464421842</p>
+					<p id="footertext"><span class="glyphicon glyphicon-phone"></span> +919464421842</p>
 				</div>
 
 			</div>

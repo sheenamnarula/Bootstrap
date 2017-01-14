@@ -31,7 +31,95 @@ body
      
    
 }
+ #inputbar
+ {
+ 	width: 200px;
+ }
+ #searchicon
+ {
+ 	display: inline;
+ }
 
+
+.item img
+{
+	margin: auto;
+	width:650px;
+	height: 433px;
+}
+#classicalcapture
+{
+	margin: auto;
+	width:650px;
+	height: 433px;
+}
+#yogablue
+{
+margin: auto;
+	width:650px;
+	height: 433px;	
+}
+#shadowblue
+{
+	margin: auto;
+	width:650px;
+	height: 433px;
+}
+#image1
+{
+	margin: auto;
+	 width: 650px;
+	 height: 350px;
+}
+
+#danceimage
+{
+	 margin: auto;
+	 width: 650px;
+	 height: 350px;
+}
+#backroundbootstrap
+{
+	margin: auto;
+	 width: 650px;
+	 height: 350px;
+}
+#textquote
+{
+color: orange ;
+ font-family: 'Lemonada', cursive;
+ font-size: 18px;
+}
+#footercolour
+{
+	color: white;
+}
+#footertext
+{
+ padding-left: 30px;
+}
+#headingstyle
+{
+	color: orange;
+	font-weight: bold;
+}
+#slidingcaption
+{
+	color: white;
+	 font-weight: bold;
+	 font-size: 25px;
+}
+#navbartext
+{
+	font-family: cursive;
+}
+
+#aboutusdisplay
+{
+	display: inline;
+	
+
+}
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
@@ -44,22 +132,15 @@ body
 
     }
     
-  @media(min-width: 768px) {
-    /* For mobile phones: */
-    .danceimage
-    {
-    	
-
-       width: 100px;
-       height: 100px;
-
-    }
+  
 
 
 
      
    
 }
+
+
 @media only screen and (width: 732px) {
     /* For mobile phones: */
     #aboutdiv {
